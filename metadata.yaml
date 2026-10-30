@@ -1,0 +1,15 @@
+name: astrbot_plugin_group_mention
+display_name: 跨群 @ 人
+desc: 在私聊或任意会话里，让机器人向指定群发一条真正的 @ 消息。
+short_desc: 一句「去群里 @ 我」，真 @ 到位。
+version: 1.0.0
+author: liuchinz
+repo: https://github.com/liuchinz/astrbot_plugin_group_mention
+astrbot_version: ">=4.16"
+category: 工具
+tags:
+  - 群聊
+  - 艾特
+  - 跨会话
+help: |
+  私聊里说「去 XX 群 @ 我一下」即可；机器人会先确认群和人，再发一条真 @。

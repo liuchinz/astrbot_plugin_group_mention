@@ -1,0 +1,26 @@
+{
+  "enable": {
+    "description": "开启跨群 @",
+    "hint": "关闭后 list_groups / send_group_mention 两个工具直接拒绝。",
+    "type": "bool",
+    "default": true
+  },
+  "allowed_groups": {
+    "description": "允许发送的群",
+    "hint": "填群号，留空表示所有群都允许。填了以后只有这些群能被 @ 到。",
+    "type": "list",
+    "default": []
+  },
+  "cooldown_seconds": {
+    "description": "同群最短间隔（秒）",
+    "hint": "防止连续往同一个群刷 @。",
+    "type": "int",
+    "default": 15
+  },
+  "max_text_chars": {
+    "description": "@ 后面的文字上限（字符）",
+    "hint": "超出会被截断，建议短句。",
+    "type": "int",
+    "default": 120
+  }
+}
